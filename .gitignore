@@ -1,3 +1,4 @@
 dist/*
 *.cabal
 .stack-work/*
+stack.yaml.lock
