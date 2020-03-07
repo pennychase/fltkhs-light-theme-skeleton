@@ -19,9 +19,10 @@ ui = do
            Nothing
  begin window
  b' <- buttonNew
-        (Rectangle (Position (X 225) (Y 180)) (Size (Width 150) (Height 40)))
+        (Rectangle (Position (X 225) (Y 180)) (Size (Width 175) (Height 40)))
         (Just "Hello world")
- setLabelsize b' (FontSize 12)
+ setLabelfont b' josefinSlabSemiBold
+ setLabelsize b' (FontSize 24)
  setCallback b' buttonCb
  end window
  showWidget window
